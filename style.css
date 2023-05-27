@@ -1,0 +1,208 @@
+/*-------NavBar-------*/
+
+#top_nav{
+    background-color: #daac00 !important;
+    padding: 0.5% 8%;
+}
+
+.navbar-brand a{
+    font-family: 'Cairo', sans-serif;
+}
+
+.nav-item a{
+    font-size: 1.25rem;
+    margin-left: 1.5625rem;
+}
+
+#searchbox::placeholder{
+    color: #088b92;
+}
+
+#searchbtn{
+   position: relative;
+   right: 0.5625rem;
+   background-color: #43d1d8;
+}
+
+/* BANNER */
+#banner{
+    background-color: #e3d39a;
+    padding: 1.875rem;
+}
+
+#bannertext{
+    margin: auto 0rem;
+    padding-bottom: 1.875rem;
+}
+
+#bannertext p{
+    font-size: 1.2rem;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+
+@media only screen and (max-width:450px) {
+    #bannertext p{
+        font-size: 1rem;
+        margin: 0rem, 1.25rem;
+    }
+}
+
+/* SERVICES */
+
+#service{
+    padding: 1.875rem;   
+}
+
+#service-text{
+    margin: auto 0rem;
+    padding-bottom: 1.875rem;
+}
+
+@media only screen and (max-width:450px) {
+    #service-text p{
+        font-size: 0.8rem;
+        margin: 0rem,1.25rem;
+    }
+
+}
+
+@media only screen and (max-width:900px) {
+   #service-text h1{
+    font-size: 1.875rem;
+   }
+   #service-text p{
+    font-size:0.9375rem;
+   }
+
+}
+
+
+/* COUNTER */
+
+#counter{
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Corgi-Wide-Screen-Wallpaper.jpg);
+    background-position:top;
+    opacity: initial;
+    background-size: cover;
+    /* padding: auto, 1rem; */
+    margin-bottom: 1.875rem;
+}
+.col-md-3{
+    margin: 1.25rem;
+    color:black;
+    text-align: center;
+}
+.counter-icon{
+    font-size: 6.25rem;
+}
+
+@media only screen and (max-width:450px) {
+    .counter-icon{
+        font-size: 2rem;
+        color:black;   
+    }
+
+    #counter h3{
+        font-size:smaller;
+        color: black;
+    }
+
+    #counter{ 
+        background-image:none;
+        background-color: #e3d39a;
+
+    }
+
+}
+
+/* BLOG */
+
+#blog{
+    margin-top: 0.875rem;
+}
+
+#blog-title{
+    padding-top: 0.875rem;
+    font-size: 3.125rem;
+    font-weight: bolder;
+}
+#blog-head{
+    background-color: #e3d39a;
+}
+
+#blog-p{
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+.article-detail {
+    text-align: left;
+    padding: 0.9375rem;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.article-date, .article-link a{
+    text-decoration: none;
+    color:#43d1d8;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:450px) {
+    #blog p{
+        font-size:smaller;
+        text-align: justify;
+    }
+    #blog h1{
+        font-size:2.25rem;
+    }
+    #blog-box img{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:900px) {
+  .article-title{
+    font-size: 1.1rem;
+  }
+  .article-date{
+    font-size: 0.7rem;
+  }
+  .article-desc{
+    font-size: 0.9rem;
+  }
+
+  #blog-box{
+    padding: 0rem;
+  }
+  
+}
+
+
+/**** FOOTER ******/
+
+#footer{
+    background-color:#343434;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer-form input{
+    background-color:#daac00;
+}
+
+.social-icon{
+    font-size: 2rem;
+    letter-spacing: 1.875rem;
+}
+
+#footer h4{
+    color: #daac00;
+}
+
+
+
